@@ -4,39 +4,69 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Flygande Korven</title>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="menu-card">
-      <header>
+    <div class="menu-wrapper">
+      <header class="card">
         <img
           class="logo"
           src="/assets/flygande-korven-logo.png"
           alt="Flygande Korven"
         />
-        <h1>Flygande Korven i Torslanda</h1>
-          <p class="tagline">Varmkorv och tillbehör sedan 1973</p>
-          <p class="description">
-          Vi serverar klassisk varmkorv med tydliga val och fasta priser.
-        </p>
+        <div class="header-content">
+          <h1>Flygande Korven i Torslanda</h1>
+          <p>Varmkorv och tillbehör sedan 1973</p>
+          <p>Vi serverar klassisk varmkorv med tydliga val och fasta priser.</p>
+        </div>
       </header>
-      <main>
-        <h2>Meny</h2>
-        <ul class="menu-list">
-          <li>Kokt – bröd, senap</li>
-          <li>Grillad – bröd, ketchup och senap</li>
-          <li>Halvspecial – korv, mos, räksallad</li>
-          <li>Vegokorv – bröd, gurkmajonnäs</li>
-        </ul>
-        <p class="tips">Dagens tips: Extra bröd 5 kr.</p>
-      </main>
-      <footer>
-        <ul>
-          <p><b>Ring:</b> <a href="tel:031-987 654">031-987 654</a></p>
-          <p><b>Öppet:</b> mån–fre 10–22, lör 12–24, sön 12–20</p>
-          <small>© Flygande Korven i Torslanda</small>
-          </li>
-        </ul>
+      <div class="menu-middle">
+        <aside class="card">
+          <h2>Extra</h2>
+          <ul>
+            <li>Extra bröd – 5kr</li>
+            <li>Potatismos – 20kr</li>
+            <li>Räksallad – 15kr</li>
+            <li>Rostad lök – 5kr</li>
+          </ul>
+        </aside>
+        <main class="card">
+          <h2>Korvar</h2>
+          <ul>
+            <li>Kokt – bröd, senap – 30 kr</li>
+            <li>Grillad – bröd, ketchup och senap – 35 kr</li>
+            <li>Halvspecial – korv, mos, räksallad – 65 kr</li>
+            <li>Vegokorv – bröd, gurkmajonnäs – 40 kr</li>
+          </ul>
+        </main>
+        <aside class="card">
+          <h2>Dryck</h2>
+          <ul>
+            <li>Vatten – 15 kr</li>
+            <li>Pucko – 25 kr</li>
+            <li>Kaffe – 20 kr</li>
+            <li>Festis – 15 kr</li>
+          </ul>
+        </aside>
+      </div>
+      <footer class="card">
+        <div class="footer-card">
+          <h2>Öppet</h2>
+          <p>mån–fre 10–22</p>
+          <p>lör 12–24</p>
+          <p>sön 12–20</p>
+        </div>
+        <img
+          class="logo"
+          src="/assets/flygande-korven-logo.png"
+          alt="Flygande Korven"
+        />
+        <div class="footer-card">
+          <h2>Kontakt</h2>
+          <p>Korvvägen 1</p>
+          <p>Torslanda</p>
+          <p>Ring: 031-987 654</p>
+        </div>
       </footer>
     </div>
   </body>
