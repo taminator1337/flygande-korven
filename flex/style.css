@@ -95,3 +95,13 @@ footer .logo {
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 499px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .menu-middle {
+    flex-direction: column;
+  }
+}
